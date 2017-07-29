@@ -1,0 +1,14 @@
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc, libuuid
+Source: feeds/routing/miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: mips_24kc
+Installed-Size: 47371
+Filename: miniupnpd_2.0.20170421-2_mips_24kc.ipk
+Size: 48223
+SHA256sum: f12479a8b2795ebd9236812c42b6d4718cbcb6c464e96553a5d9988714dd6278
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+

@@ -1,0 +1,15 @@
+Package: aircrack-ng
+Version: 1.2-rc1-1
+Depends: libc, libpcap, libpthread, libopenssl, libnl-core, libnl-genl, zlib
+Source: feeds/packages/net/aircrack-ng
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Rick Farina <zerochaos@gentoo.org>
+Architecture: mips_24kc
+Installed-Size: 399714
+Filename: aircrack-ng_1.2-rc1-1_mips_24kc.ipk
+Size: 396086
+SHA256sum: 8804e0ff9468436b48c6316a51f60725c9c8975c170eb67273f82eb54516d0c5
+Description:  WLAN tools for breaking 802.11 WEP/WPA keys
+
