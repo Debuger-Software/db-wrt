@@ -17,7 +17,7 @@ case $MODE in
 			dialog --title "Are you fuc**ng ready ?" --yes-label "DAWAJ !!!" --no-label "Peniam..." --yesno "Flashujemy nowy soft ?" 5 35
 				case $? in
 					0)
-					IMG_NAME="dbgr-os-$CONFIG_VERSION_NUMBER-$CONFVER-ar71xx-generic-tl-wr740n-v4-squashfs-sysupgrade.bin"
+					IMG_NAME="db-wrt-$CONFIG_VERSION_NUMBER-$CONFVER-ar71xx-generic-tl-wr740n-v4-squashfs-sysupgrade.bin"
 					IMG_PATH="/home/debuger/lede/bin/targets/ar71xx/generic/$IMG_NAME"
 					if [ -f $IMG_PATH ]; then
 						sshpass -p 'koalapaint7' scp put $IMG_PATH root@192.168.1.1:/tmp
@@ -44,7 +44,7 @@ case $MODE in
 				dialog --title "Are you fuc**ng ready ?" --yes-label "DAWAJ !!!" --no-label "Peniam..." --yesno "Flashujemy nowy soft ?" 5 35
 				case $? in
 					0)
-					IMG_NAME="dbgr-os-$CONFIG_VERSION_NUMBER-$CONFVER-ar71xx-generic-tl-wr740n-v4-squashfs-sysupgrade.bin"
+					IMG_NAME="db-wrt-$CONFIG_VERSION_NUMBER-$CONFVER-ar71xx-generic-tl-wr740n-v4-squashfs-sysupgrade.bin"
 					IMG_PATH="/home/debuger/lede/bin/targets/ar71xx/generic/$IMG_NAME"
 					if [ -f $IMG_PATH ]; then
 						sshpass -p 'koalapaint7' scp put $IMG_PATH root@192.168.1.1:/tmp

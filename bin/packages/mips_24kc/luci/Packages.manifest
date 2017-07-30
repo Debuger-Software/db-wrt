@@ -70,10 +70,10 @@ Source: feeds/luci/modules/luci-base
 License: Apache-2.0
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 123017
+Installed-Size: 123009
 Filename: luci-base_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
-Size: 123966
-SHA256sum: 0cb05af493a2b5482253f421fb27d1d53a37a498c6d66cd111f76c2a13e09e84
+Size: 123949
+SHA256sum: 4da90d38ad8d8578073f142501f002c9d6cb8ca19b30f029f9cf4b779f0d9273
 Description:  LuCI core libraries
 
 Package: luci-i18n-base-pl
@@ -83,10 +83,10 @@ Source: feeds/luci/modules/luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 20764
+Installed-Size: 20765
 Filename: luci-i18n-base-pl_git-17.209.51293-4c9ae3f-1_all.ipk
-Size: 21573
-SHA256sum: 31b11247e841f68ca1c09100481d2c46b699f6f1c78003626d8924cba9e8bb17
+Size: 21580
+SHA256sum: 53bf2fbf5db83b7f8638d17f74bfcf0c994d7a7477c5be22ce25e551d5883e65
 Description:  Translation for luci-base - Polski (Polish)
 
 Package: luci-i18n-commands-pl
@@ -147,10 +147,10 @@ Source: feeds/luci/libs/luci-lib-ip
 License: Apache-2.0
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 9192
+Installed-Size: 9195
 Filename: luci-lib-ip_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
-Size: 9909
-SHA256sum: 1ac740801cf1899ec8a791861737376b16bc7534d2fe8b461c379350c9157bb0
+Size: 9921
+SHA256sum: 1963fa97205a23bc84d31854bc5ab03021a3d97d803ffa751f5beecc69f5ce55
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-json
@@ -172,10 +172,10 @@ Depends: libc, liblua, libjson-c
 Source: feeds/luci/libs/luci-lib-jsonc
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 4020
+Installed-Size: 4022
 Filename: luci-lib-jsonc_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
 Size: 4709
-SHA256sum: 07a6b0ef9831deb0dbfab503b58fed7fe8e82d976f4d5d72252d5bc130434187
+SHA256sum: bde9c9e3f266882186b7c2f2193410ad8cd94432b870d422a009fe0aa8c6e212
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-nixio
@@ -185,10 +185,10 @@ Source: feeds/luci/libs/luci-lib-nixio
 License: Apache-2.0
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 28319
+Installed-Size: 28323
 Filename: luci-lib-nixio_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
-Size: 28667
-SHA256sum: 977d6f33cde9453bab030c7d9d89a14c10141c2f983c1e2a042a6a22821cce7d
+Size: 28683
+SHA256sum: fd73c789a90a3296bd12769bbe0674672c63e3b60bef39b8c57be9a3af4b2a14
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full

@@ -13,3 +13,20 @@ Size: 396086
 SHA256sum: 8804e0ff9468436b48c6316a51f60725c9c8975c170eb67273f82eb54516d0c5
 Description:  WLAN tools for breaking 802.11 WEP/WPA keys
 
+Package: kmod
+Version: 20-1
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: mips_24kc
+Installed-Size: 48551
+Filename: kmod_20-1_mips_24kc.ipk
+Size: 49451
+SHA256sum: 204ecc1ecb8a4c693565895c785cdef7841246b5dbdf6ec417ad4877d326466c
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
+

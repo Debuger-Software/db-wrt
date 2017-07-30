@@ -322,10 +322,10 @@ License: GPL-2.0
 Section: libs
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mips_24kc
-Installed-Size: 11039
+Installed-Size: 11040
 Filename: libiw_29-5_mips_24kc.ipk
-Size: 11807
-SHA256sum: 41703a61129211ebf017b260e1a953b0b8e64a6f985d804de1b46163035cf1ed
+Size: 11800
+SHA256sum: 42cd563ce8f9cff3c2daff6adb098cb1f010ba6f287466e24c10efb9b494ae50
 Description:  This package contains a library for manipulating
  "Linux Wireless Extensions".
 
@@ -457,10 +457,10 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mips_24kc
-Installed-Size: 3975
+Installed-Size: 3979
 Filename: libubox-lua_2017-06-17-fd57eea9-1_mips_24kc.ipk
-Size: 4704
-SHA256sum: 1fa500b26f4991dfd608568c174bd89a79c57712d38cb26cba23585d46cfcd5a
+Size: 4708
+SHA256sum: d8e0a7e689cf06411646fea5effa7c359de15e0dda6bc677cd359baa238a7164
 Description:  Lua binding for the OpenWrt Basic utility library
 
 Package: libubox
@@ -897,8 +897,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mips_24kc
 Installed-Size: 20091
 Filename: wireless-tools_29-5_mips_24kc.ipk
-Size: 20864
-SHA256sum: 242972c31cae9343961c731dce39ddb10e872dcdd23c2f7cae70d723f237e07a
+Size: 20849
+SHA256sum: 3df21df1955e0df338e6c95383675059b8e0b8ffcb03dd417a38f766982faeb8
 Description:  This package contains a collection of tools for configuring wireless
  adapters implementing the "Linux Wireless Extensions".
 
@@ -941,8 +941,8 @@ Section: libs
 Architecture: mips_24kc
 Installed-Size: 37594
 Filename: zlib_1.2.11-1_mips_24kc.ipk
-Size: 38325
-SHA256sum: 6adfffe6b16a688e4bdfa06dbe0352d26cc8181b2fbbe8eba891a844c710050a
+Size: 38338
+SHA256sum: 6c2e28bac479c7aa4bc2cbf76ec0532eef33828aa090f4256bd340df937a4766
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.
 
