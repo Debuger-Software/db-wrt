@@ -11,9 +11,9 @@ MODE=$(dialog --title "MAKE" --menu "Co robimy ?" 10 50 3 1 Kompilacja 2 Konfigu
 case $MODE in
 	1) #KOMPILACJA
 		echo KOMPILACJA
-		MAKEPARAMS=$(dialog --title "GADATLIWY MAKE" --clear --inputbox "Potwierdź parametry make" 10 40 "-j 3 V=1" 3>&1 1>&2 2>&3)
+		MAKEPARAMS=$(dialog --title "GADATLIWY MAKE" --clear --inputbox "Potwierdź parametry make" 10 40 "-j3 V=1" 3>&1 1>&2 2>&3)
 		dialog --title "KOMPILACJA W TOKU" --infobox "Rozpoczynanie kompilacji..." 3 40
-		colormake $MAKEPARAMS
+		time colormake $MAKEPARAMS
 			dialog --title "Are you fuc**ng ready ?" --yes-label "DAWAJ !!!" --no-label "Peniam..." --yesno "Flashujemy nowy soft ?" 5 35
 				case $? in
 					0)
@@ -37,9 +37,9 @@ case $MODE in
 		dialog --title "TESTUJEMY ?" --yes-label "NO BA!" --no-label "NI CHU..." --yesno "KOMPILOWAĆ Z NOWYMI USTAWIENIAMI ?" 5 38
 			case $? in
 				0) echo TAK
-				MAKEPARAMS=$(dialog --title "GADATLIWY MAKE" --clear --inputbox "Potwierdź parametry make" 10 40 "-j 3 V=1" 3>&1 1>&2 2>&3)
+				MAKEPARAMS=$(dialog --title "GADATLIWY MAKE" --clear --inputbox "Potwierdź parametry make" 10 40 "-j3 V=1" 3>&1 1>&2 2>&3)
 				dialog --title "KOMPILACJA W TOKU" --infobox "Rozpoczynanie kompilacji..." 3 40
-				colormake $MAKEPARAMS
+				time colormake $MAKEPARAMS
 				
 				dialog --title "Are you fuc**ng ready ?" --yes-label "DAWAJ !!!" --no-label "Peniam..." --yesno "Flashujemy nowy soft ?" 5 35
 				case $? in

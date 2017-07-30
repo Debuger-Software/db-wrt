@@ -17,10 +17,10 @@ License: GPL-2.0
 Section: base
 Essential: yes
 Architecture: mips_24kc
-Installed-Size: 210561
+Installed-Size: 210558
 Filename: busybox_1.26.2-7_mips_24kc.ipk
-Size: 210764
-SHA256sum: 35b2e7fba29d8a6e9174636c1c60f374ad0ff7cc2ef8ae67af07c7a4d499abc7
+Size: 210737
+SHA256sum: ecbfc30c2d90267a34a92486b9fb2eee14195b1c93c644d7c3fa8b2003118641
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -30,10 +30,10 @@ Depends: libc
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 89769
+Installed-Size: 89765
 Filename: dnsmasq_2.77-8_mips_24kc.ipk
-Size: 90384
-SHA256sum: 56e5ffc397c42c18fb914c9bf5c9610a586b78014ec98810f4979b482e2dd66e
+Size: 90385
+SHA256sum: 2119d1c22ce267abf373dcfe916baca2a86736631e10211b469a66d1e7634016
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: dropbear
@@ -42,10 +42,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: mips_24kc
-Installed-Size: 87420
+Installed-Size: 87418
 Filename: dropbear_2017.75-3_mips_24kc.ipk
-Size: 87517
-SHA256sum: 309512b9153ed68277ca26853e889ac64596b038dad970303ae41d1e5ff1e852
+Size: 87497
+SHA256sum: a7165c8199030375db9867a37212598f8503ebcd3450e2231123f7d2804ec837
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: firewall
@@ -54,10 +54,10 @@ Depends: libc, libubox, libubus, libuci, libip4tc, libxtables, kmod-ipt-core, km
 License: ISC
 Section: net
 Architecture: mips_24kc
-Installed-Size: 35660
+Installed-Size: 35657
 Filename: firewall_2017-05-27-a4d98aea-1_mips_24kc.ipk
-Size: 36360
-SHA256sum: d6c44777e6fadad47065c3ce77df40b90b7c5b67d19c61cb87d8a3809ee162a1
+Size: 36350
+SHA256sum: 7630e3c3c3b93f31efac3abb84b7d2fab75453cec29915b73f15d1f21b86fb2e
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: hostapd-common
@@ -66,10 +66,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: net
 Architecture: mips_24kc
-Installed-Size: 5548
+Installed-Size: 5546
 Filename: hostapd-common_2016-12-19-ad02e79d-4_mips_24kc.ipk
-Size: 6276
-SHA256sum: f723ceb816c75df66687f87f8ade057bed213d4b75f89be1f29fbd0f7d1a14af
+Size: 6280
+SHA256sum: d2372a151ca5a3b2a48f3c1b6cb226a90b77c7fe9c2bea128d1b31cfa1c53de2
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
@@ -92,10 +92,10 @@ Conflicts: wpad, wpad-mini, wpad-mesh
 License: BSD-3-Clause
 Section: net
 Architecture: mips_24kc
-Installed-Size: 256892
+Installed-Size: 256893
 Filename: hostapd_2016-12-19-ad02e79d-4_mips_24kc.ipk
-Size: 257607
-SHA256sum: 284c7a8cb8d6fb46bb049be384deba17ed7fa53ae4c2d57ebfb01189e9be1c93
+Size: 257600
+SHA256sum: b13d7fc72836b1888ac303fb29ee7c1c98947410683766f53e243e17c08a06b1
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator.
 
@@ -156,10 +156,10 @@ Depends: libc, kmod-ipt-core, libip4tc, libxtables
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 16682
+Installed-Size: 16683
 Filename: iptables_1.6.1-1_mips_24kc.ipk
-Size: 17544
-SHA256sum: bb00bf857b556e7ad3fdcf51a6d3d3aa9a5355f4e8a22d77bf1701b25a3333a0
+Size: 17536
+SHA256sum: 479b590b406e1ad263f2a27c5984b4620b6dcafbaee46cc8562768f3bbda1135
 Description:  IP firewall administration tool.
  
  Matches:
@@ -203,10 +203,10 @@ Depends: libc, libnl-tiny
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 33696
+Installed-Size: 33694
 Filename: iw_4.9-1_mips_24kc.ipk
-Size: 34438
-SHA256sum: 32a5680669303c541770c270187f78b7271aecea92862b38ce45f1d3624976ca
+Size: 34445
+SHA256sum: 583ff8a4f3a0c45bd20c622054ae1e959c47a3a256f2f5e83fca36aa68bc7f40
 Description:  cfg80211 interface configuration utility
 
 Package: jshn
@@ -215,10 +215,10 @@ Depends: libc, libjson-c, libubox, libblobmsg-json
 License: ISC
 Section: utils
 Architecture: mips_24kc
-Installed-Size: 5281
+Installed-Size: 5279
 Filename: jshn_2017-06-17-fd57eea9-1_mips_24kc.ipk
-Size: 6053
-SHA256sum: 99462aea3c90fe91ad9892238448e37f11e1d46f968a1415d4b8c93b79f75065
+Size: 6051
+SHA256sum: ac70dac4fa209a540b96c7c455372bacfde352d6e4e68aefd0ea207590edf415
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
@@ -227,10 +227,10 @@ Depends: libc, libubox, libjson-c
 License: ISC
 Section: base
 Architecture: mips_24kc
-Installed-Size: 7701
+Installed-Size: 7699
 Filename: jsonfilter_2016-07-02-dea067ad-1_mips_24kc.ipk
-Size: 8485
-SHA256sum: 394231e2074d974e0fadf8d8868ec88bbffe7d79289d27492cc7f77e6122623b
+Size: 8474
+SHA256sum: 1835365ab586e14f5eb17df61dc28751ace18c20e200ad9b944498ffd53c088e
 Description:  OpenWrt JSON filter utility
 
 Package: lede-keyring
@@ -241,8 +241,8 @@ Section: base
 Architecture: mips_24kc
 Installed-Size: 866
 Filename: lede-keyring_2017-01-20-a50b7529-1_mips_24kc.ipk
-Size: 1643
-SHA256sum: b9fce504702daaad0e191f6b79c63797ff4069c49e951efa997e08763e5b872a
+Size: 1632
+SHA256sum: 9816063fa15689eb896048f0050fc5c23b715f1b5e145b51744e4d2596c31544
 Description:  The keyring of with the developer using and gpg public keys.
 
 Package: libblobmsg-json
@@ -251,10 +251,10 @@ Depends: libc, libjson-c, libubox
 License: ISC
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 3707
+Installed-Size: 3705
 Filename: libblobmsg-json_2017-06-17-fd57eea9-1_mips_24kc.ipk
-Size: 4422
-SHA256sum: e96788a700389fda1b0c3c8413f2ca4c57ab220030ec6f4fc3db3d8fc5ed38cb
+Size: 4417
+SHA256sum: 1d88de3cbd005c666c237a7ee8a8dd3865d4225fa60d572eae99ccabbee50d64
 Description:  blobmsg <-> json conversion library
 
 Package: libip4tc
@@ -263,10 +263,10 @@ Depends: libc, libxtables
 License: GPL-2.0
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 17636
+Installed-Size: 17634
 Filename: libip4tc_1.6.1-1_mips_24kc.ipk
-Size: 18377
-SHA256sum: 3d9a1f6c0d342888903ee17d3dcf5bef70e4c5011ca546eaf3387ad8cfa7fd57
+Size: 18367
+SHA256sum: f4b8548b2622137ea944a38e299a2fc93544872a621951a2321afd1db51622c5
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc
@@ -300,10 +300,10 @@ Depends: libc
 License: MIT
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 13885
+Installed-Size: 13884
 Filename: libjson-c_0.12.1-1_mips_24kc.ipk
-Size: 14593
-SHA256sum: 197465316825a7ee7838fad99f4137ba033880823ca449b06ce42da8208aacaa
+Size: 14591
+SHA256sum: 084ab0b89ccb654a6a07922d54ff7e3114d7caa33c55b9d27cec0c3b3fb0164d
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script
@@ -314,8 +314,8 @@ Section: utils
 Architecture: mips_24kc
 Installed-Size: 4745
 Filename: libjson-script_2017-06-17-fd57eea9-1_mips_24kc.ipk
-Size: 5470
-SHA256sum: 2fba4535d1309dedda5f37f5d9bd18e87aa35ab2940a7ed299b7033da947a3ec
+Size: 5465
+SHA256sum: 75263c2c66df043fca33200d37c8d244d9c358ac7ac12fb313848f9285974cbc
 Description:  Minimalistic JSON based scripting engine
 
 Package: liblua
@@ -324,10 +324,10 @@ Depends: libc
 License: MIT
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 63058
+Installed-Size: 63060
 Filename: liblua_5.1.5-1_mips_24kc.ipk
-Size: 63394
-SHA256sum: 9f3a141551e586f5d324ca24a16ad4dcd83eb1a110229bad30cf2c5efff22ba8
+Size: 63403
+SHA256sum: cd27bf76f325a4c2f33c5a83d92e23eb1aec20505692e68795e4028829f47f36
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -363,10 +363,10 @@ Depends: libc
 License: LGPL-2.1
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 12278
+Installed-Size: 12277
 Filename: libnl-tiny_0.1-5_mips_24kc.ipk
-Size: 13022
-SHA256sum: 565a4712fea4954e655c0a4d86727bb70544de6edf6029836a01ac747874b1a8
+Size: 13015
+SHA256sum: 4304bad545a883f3bdfed548114959b9743cb7c4c7dccf29ae916fce2a1855c2
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl
@@ -416,10 +416,10 @@ Depends: libc
 License: ISC
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 18405
+Installed-Size: 18404
 Filename: libubox_2017-06-17-fd57eea9-1_mips_24kc.ipk
-Size: 19140
-SHA256sum: 3dd8e1724d420bfa0e0b193112815d8cee63b71dddb184f2ad58ba852bf45316
+Size: 19131
+SHA256sum: 04de66f810bb3fc73d2b0a9126953fc904e95121d330c15084eb84876cb03627
 Description:  Basic utility library
 
 Package: libubus-lua
@@ -428,10 +428,10 @@ Depends: libc, libubus, liblua
 License: LGPL-2.1
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 6371
+Installed-Size: 6368
 Filename: libubus-lua_2017-02-18-34c6e818-1_mips_24kc.ipk
-Size: 7169
-SHA256sum: 8bf4f982c6dad315e16756e278dfbd137b9dd9d7ea7be760c44eb4ab0fa1f451
+Size: 7158
+SHA256sum: 8fd385effcced680c09076c33395351c0a4458ff54910ebdc9780e17433a9a29
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus
@@ -440,10 +440,10 @@ Depends: libc, libubox
 License: LGPL-2.1
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 9171
+Installed-Size: 9169
 Filename: libubus_2017-02-18-34c6e818-1_mips_24kc.ipk
-Size: 9949
-SHA256sum: 56ea3ce86440c5d3540a82746e4658c93924da98fc299c8307897fa41e3a31e6
+Size: 9942
+SHA256sum: 6818652ea0c04317714302cbc0d0015d8ebaef7afbdb05ad43a4f8e7b2eabf2f
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -452,10 +452,10 @@ Depends: libc, libuci, liblua
 License: LGPL-2.1
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 5925
+Installed-Size: 5923
 Filename: libuci-lua_2017-04-12-c4df32b3-1_mips_24kc.ipk
-Size: 6656
-SHA256sum: 1ab22947624ecb904607e1af61886f5f9ba0447ef4ba8398ea709756b2bdeff1
+Size: 6642
+SHA256sum: ff8a2e89d5b0506ff6a49ba9db642d71d6ce09a7a9d471cbc2bd4eb0a9a0142e
 Description:  Lua plugin for UCI
 
 Package: libuci
@@ -464,10 +464,10 @@ Depends: libc, libubox
 License: LGPL-2.1
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 14330
+Installed-Size: 14326
 Filename: libuci_2017-04-12-c4df32b3-1_mips_24kc.ipk
-Size: 15046
-SHA256sum: 982f67978a572324eafa6339042f1f0e2b1bdc044bc413a82015e3a5a374c15f
+Size: 15040
+SHA256sum: 1969e4b1f6226fad182f9822bd06d1a78c0f1d170a73c3c4c16f92c235048b18
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libuclient
@@ -476,10 +476,10 @@ Depends: libc, libubox
 License: ISC
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 9035
+Installed-Size: 9033
 Filename: libuclient_2016-12-09-52d955fd-1_mips_24kc.ipk
-Size: 9809
-SHA256sum: 57e8334dcecee82cd2d5fd0df53324343d3b54521b37c8b8dc629bc67dbdbb3a
+Size: 9801
+SHA256sum: 46c7d4bb1141b0e9091ab16f23d5b8c9e09eb7cb5051586c505eada24d7e4163
 Description:  HTTP/1.1 client library
 
 Package: libuuid
@@ -503,10 +503,10 @@ Depends: libc
 License: GPL-2.0
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 37595
+Installed-Size: 37587
 Filename: libxtables_1.6.1-1_mips_24kc.ipk
-Size: 38386
-SHA256sum: acad17bbd1279ef65add63199518678fb21584dabf8d981656c7a62429478bac
+Size: 38380
+SHA256sum: 71ed26b42da652bd17163bd3b4c3bf1e76a438d0e60c04ee773fe0581a12ac3f
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: logd
@@ -515,10 +515,10 @@ Depends: libc, libubox, libubus, libblobmsg-json
 License: GPL-2.0
 Section: base
 Architecture: mips_24kc
-Installed-Size: 9350
+Installed-Size: 9348
 Filename: logd_2017-03-03-21a4bd04-1_mips_24kc.ipk
-Size: 10018
-SHA256sum: 60b97dd386ccd593e1f5531548e61c49b6414437f1e962efdf50aeb5ad898a0d
+Size: 10011
+SHA256sum: d6849c4715acdd72f3b23893a0f67990520173e3a26b263b027ab18a97255daf
 Description:  OpenWrt system log implementation
 
 Package: lua
@@ -527,10 +527,10 @@ Depends: libc, liblua
 License: MIT
 Section: lang
 Architecture: mips_24kc
-Installed-Size: 4610
+Installed-Size: 4607
 Filename: lua_5.1.5-1_mips_24kc.ipk
-Size: 5445
-SHA256sum: 7b12ef6a12f8881d9d5d4cdb3a635c0597250e9aedb9de0f30562719329bbe2f
+Size: 5433
+SHA256sum: a1771276e7f813ef57c701109fac01e2acdc01f87b37feb2d1fed0a6fa2daa86
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -542,10 +542,10 @@ Depends: libc, libubox
 License: GPL-2.0+
 Section: utils
 Architecture: mips_24kc
-Installed-Size: 14153
+Installed-Size: 12750
 Filename: mtd_21_mips_24kc.ipk
-Size: 14900
-SHA256sum: d919c8da14b876f97a265b9d9b960cfbfda83f199e0558b5ba9d61edec9a6ded
+Size: 13481
+SHA256sum: b79cd5a781e5e280763adc422e9ba5bc44acba011d474921f87324859603e49e
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -555,10 +555,10 @@ Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
 License: GPL-2.0
 Section: base
 Architecture: mips_24kc
-Installed-Size: 59504
+Installed-Size: 59502
 Filename: netifd_2017-07-21-34afb764-1_mips_24kc.ipk
-Size: 60191
-SHA256sum: b0c246c47c7a673e530d02e7295179438bd540bebdb11870a8a5919be60a944a
+Size: 60190
+SHA256sum: 42b859b5c11561976b122f743d6f19eab5b7c2de805f7036c13dc3b3bfa8054e
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: odhcpd
@@ -567,10 +567,10 @@ Depends: libc, libubox, libuci, libubus, libnl-tiny
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 28804
+Installed-Size: 28797
 Filename: odhcpd_2017-07-04-f0d78e7e-1_mips_24kc.ipk
-Size: 29544
-SHA256sum: 005b4ad0cbc4f4ca600212a6583340059d9c8835a082b99e6e3740cd80442dfe
+Size: 29531
+SHA256sum: d650ee69a8569f26d76248fea487fdeb97ab325226828fed6a0145c16345adbe
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -609,10 +609,10 @@ Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
 License: GPL-2.0
 Section: base
 Architecture: mips_24kc
-Installed-Size: 37104
+Installed-Size: 37098
 Filename: procd_2017-07-20-17026f46-1_mips_24kc.ipk
-Size: 37648
-SHA256sum: 3e6af65127bee41eff4a51ffe26fb8e4cc3a176a50611fc099b651bb72cf96b2
+Size: 37639
+SHA256sum: 78d2e8b6deb878d4bad2531328b1ca186629cfdc349562ac26ba5bdcae5111e5
 Description:  OpenWrt system process manager
 
 Package: qos-scripts
@@ -635,10 +635,10 @@ Depends: libc, libubus, libubox, libuci, libblobmsg-json
 License: ISC
 Section: utils
 Architecture: mips_24kc
-Installed-Size: 15544
+Installed-Size: 15541
 Filename: rpcd_2016-12-03-0577cfc1-1_mips_24kc.ipk
-Size: 16241
-SHA256sum: 13a2ea7cd1863d09bd5c5af55df3f53455e62e83ba9fe703997ac17aee849197
+Size: 16232
+SHA256sum: 2af5866eeccbb1e2a0eafd26d3b296db297639ff0b32b70196fbb0295c06a101
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -648,10 +648,10 @@ Depends: libc, libuci, libnl-tiny
 License: GPL-2.0
 Section: base
 Architecture: mips_24kc
-Installed-Size: 8733
+Installed-Size: 8727
 Filename: swconfig_11_mips_24kc.ipk
-Size: 9465
-SHA256sum: 3542b0c91e9efe303d5d4dc8210c9c605fc16cb80cedfa5f75079fdf1389cddb
+Size: 9452
+SHA256sum: 39a075460e2573274d5dcc504b2c7bc8b46fc94a98fa6cda14e739aa71627896
 Description:  Switch configuration utility
 
 Package: tc
@@ -672,10 +672,10 @@ Depends: libc, libubox, ubusd, ubus, libubus, libuci
 License: GPL-2.0
 Section: base
 Architecture: mips_24kc
-Installed-Size: 14484
+Installed-Size: 14482
 Filename: ubox_2017-03-03-21a4bd04-1_mips_24kc.ipk
-Size: 15194
-SHA256sum: 4a83f18a93a55d5d72bd24d1ce82bd297aa094598bd8f3708628ed01445698f5
+Size: 15192
+SHA256sum: d37f053c5676fe3724a2b51ddd68b835bd40088bc8496613cc8005ecad77f3a7
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
@@ -684,10 +684,10 @@ Depends: libc, libubus, libblobmsg-json, ubusd
 License: LGPL-2.1
 Section: base
 Architecture: mips_24kc
-Installed-Size: 4914
+Installed-Size: 4909
 Filename: ubus_2017-02-18-34c6e818-1_mips_24kc.ipk
-Size: 5652
-SHA256sum: c3a7f75392d2f48a057101540036040abda32b20c4a2e2cb01b936897f237ddc
+Size: 5642
+SHA256sum: 92ac537d20a44a4bec3c7f97a9175101a2d8e8bdf18746f791c47edab481e693
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
@@ -696,10 +696,10 @@ Depends: libc, libubox, libblobmsg-json
 License: LGPL-2.1
 Section: base
 Architecture: mips_24kc
-Installed-Size: 9029
+Installed-Size: 9024
 Filename: ubusd_2017-02-18-34c6e818-1_mips_24kc.ipk
-Size: 9818
-SHA256sum: ad4bcf27468c66210ebe6342fb7f21637a3c93c0922e231378f03e5ad1f625f2
+Size: 9809
+SHA256sum: a9367ecc7fbe29842d7378f2a60b409d73406cd5c4a4126c38895e98ac9c5cb8
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -708,10 +708,10 @@ Depends: libc, libuci
 License: LGPL-2.1
 Section: base
 Architecture: mips_24kc
-Installed-Size: 6552
+Installed-Size: 6549
 Filename: uci_2017-04-12-c4df32b3-1_mips_24kc.ipk
-Size: 7319
-SHA256sum: 937174963bd4627293b976679761e8d48cf4da7618bb63abd64930b5c42dd4ad
+Size: 7318
+SHA256sum: 0b7e335357702906b11388a994357b1e3ee367ad5d6bfce6e95affcf3125cd20
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uclient-fetch
@@ -720,10 +720,10 @@ Depends: libc, libuclient
 License: ISC
 Section: net
 Architecture: mips_24kc
-Installed-Size: 6703
+Installed-Size: 6699
 Filename: uclient-fetch_2016-12-09-52d955fd-1_mips_24kc.ipk
-Size: 7479
-SHA256sum: bbd8eb2cd5b6c49ff025b90849cc8e6b8b6c5bb90a2db8c623a05597e21583bb
+Size: 7464
+SHA256sum: 52dc79efe2ec3e86a1de7c61cce4679f7aceceb78faf8c3c11fdb585a421049f
 Description:  Tiny wget replacement using libuclient
 
 Package: uhttpd-mod-lua
@@ -744,10 +744,10 @@ Depends: libc, uhttpd, libubus, libblobmsg-json
 License: ISC
 Section: net
 Architecture: mips_24kc
-Installed-Size: 5865
+Installed-Size: 5863
 Filename: uhttpd-mod-ubus_2016-10-25-1628fa4b-2_mips_24kc.ipk
-Size: 6670
-SHA256sum: 9c2b50f3ca22609807577fd66b19ba2374ba33100b79bfbe4bad64bb6a7dc4c9
+Size: 6664
+SHA256sum: 0bbcad96188ee5fd639edcace455f56740ee6d78cff52fec61462ac410e71a21
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -757,10 +757,10 @@ Depends: libc, libubox, libblobmsg-json, libjson-script
 License: ISC
 Section: net
 Architecture: mips_24kc
-Installed-Size: 21428
+Installed-Size: 21421
 Filename: uhttpd_2016-10-25-1628fa4b-2_mips_24kc.ipk
-Size: 22179
-SHA256sum: 5100ead83a1c44a10dbec1ad57488787842432a825d71ad0ffd17ac773bfdfdc
+Size: 22161
+SHA256sum: f7db83076502b4debe0b82963de4c6078951f65c5ac7929469d0f2a5e2b904fd
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -773,8 +773,8 @@ Section: base
 Architecture: mips_24kc
 Installed-Size: 12030
 Filename: usign_2015-07-04-ef641914-1_mips_24kc.ipk
-Size: 12774
-SHA256sum: 870fb97d0dd462695e317c3422b867f826f7373e6e4e031f6ccd687445f86cfb
+Size: 12776
+SHA256sum: 186436cf13e30ed359993af5cc13899e645fd06c8c417adee14fb948490a6f57
 Description:  OpenWrt signature verification utility
 
 Package: wireless-tools

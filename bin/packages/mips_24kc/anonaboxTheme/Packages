@@ -1,0 +1,11 @@
+Package: luci-theme-anonabox
+Version: 0.1.0-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 20413
+Filename: luci-theme-anonabox_0.1.0-1_all.ipk
+Size: 21138
+SHA256sum: a5cd99fa9ce61354b10c6e7ff6d02e2fceace3bebd605386e3bb92f8103c61a8
+Description:  LuCI Theme - Anonabox
+

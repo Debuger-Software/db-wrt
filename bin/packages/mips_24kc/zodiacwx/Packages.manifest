@@ -1,0 +1,12 @@
+Package: luci-theme-zodiacwx
+Version: git-17.181.15028-ed7334c-1
+Depends: libc
+Source: feeds/zodiacwx/luci/themes/luci-theme-zodiacwx
+Section: luci
+Architecture: all
+Installed-Size: 76074
+Filename: luci-theme-zodiacwx_git-17.181.15028-ed7334c-1_all.ipk
+Size: 76931
+SHA256sum: 2d86635bd380c0228333404e996b2ac248274851cbd7b6ab9e6847f9d4b0eaac
+Description:  Zodiac WX Theme
+

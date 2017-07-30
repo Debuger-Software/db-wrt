@@ -64,29 +64,29 @@ SHA256sum: 54d8691cf8ed0d4bb06a9dbfec536c8b99c1a2c92cefc6aa29742f45b66d99c6
 Description:  Universal Plug & Play configuration module
 
 Package: luci-base
-Version: git-17.205.60871-6c8a9f1-1
+Version: git-17.209.51293-4c9ae3f-1
 Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
 Source: feeds/luci/modules/luci-base
 License: Apache-2.0
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 122996
-Filename: luci-base_git-17.205.60871-6c8a9f1-1_mips_24kc.ipk
-Size: 123948
-SHA256sum: a90f3910c54f7aff05a512e2c694e1142cfe08102815eabcfb2f1bd3b68d5fdc
+Installed-Size: 123017
+Filename: luci-base_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
+Size: 123966
+SHA256sum: 0cb05af493a2b5482253f421fb27d1d53a37a498c6d66cd111f76c2a13e09e84
 Description:  LuCI core libraries
 
 Package: luci-i18n-base-pl
-Version: git-17.205.60871-6c8a9f1-1
+Version: git-17.209.51293-4c9ae3f-1
 Depends: libc, luci-base
 Source: feeds/luci/modules/luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20764
-Filename: luci-i18n-base-pl_git-17.205.60871-6c8a9f1-1_all.ipk
-Size: 21578
-SHA256sum: ee9ad7a938b4f6bf0ebb148a46e34987d42108491e57f5d112c3e635354cb46d
+Filename: luci-i18n-base-pl_git-17.209.51293-4c9ae3f-1_all.ipk
+Size: 21573
+SHA256sum: 31b11247e841f68ca1c09100481d2c46b699f6f1c78003626d8924cba9e8bb17
 Description:  Translation for luci-base - Polski (Polish)
 
 Package: luci-i18n-commands-pl
@@ -141,16 +141,16 @@ SHA256sum: f4b3baf3d260c29335d9fff7f744ffa5f70abe2d8711ccee605e176dbd533f78
 Description:  Translation for luci-app-upnp - Polski (Polish)
 
 Package: luci-lib-ip
-Version: git-17.205.60871-6c8a9f1-1
+Version: git-17.209.51293-4c9ae3f-1
 Depends: libc, liblua, libnl-tiny
 Source: feeds/luci/libs/luci-lib-ip
 License: Apache-2.0
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 9194
-Filename: luci-lib-ip_git-17.205.60871-6c8a9f1-1_mips_24kc.ipk
-Size: 9919
-SHA256sum: 0db988f4d1670a2bade7e8f728ffa13854bac21da05737384284e80687ef6551
+Installed-Size: 9192
+Filename: luci-lib-ip_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
+Size: 9909
+SHA256sum: 1ac740801cf1899ec8a791861737376b16bc7534d2fe8b461c379350c9157bb0
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-json
@@ -167,41 +167,41 @@ SHA256sum: 306b03ba66851bdc1e34f763a747d6ad08b59743eb4de0cec5e624fa8b7bdaa0
 Description:  LuCI JSON library
 
 Package: luci-lib-jsonc
-Version: git-17.205.60871-6c8a9f1-1
+Version: git-17.209.51293-4c9ae3f-1
 Depends: libc, liblua, libjson-c
 Source: feeds/luci/libs/luci-lib-jsonc
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 4015
-Filename: luci-lib-jsonc_git-17.205.60871-6c8a9f1-1_mips_24kc.ipk
-Size: 4700
-SHA256sum: 300d0b25a90ce62e64e831fecf55490717a9b8ff34e54b7fbf72a2b732db81db
+Installed-Size: 4020
+Filename: luci-lib-jsonc_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
+Size: 4709
+SHA256sum: 07a6b0ef9831deb0dbfab503b58fed7fe8e82d976f4d5d72252d5bc130434187
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-nixio
-Version: git-17.205.60871-6c8a9f1-1
+Version: git-17.209.51293-4c9ae3f-1
 Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-nixio
 License: Apache-2.0
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 28323
-Filename: luci-lib-nixio_git-17.205.60871-6c8a9f1-1_mips_24kc.ipk
-Size: 28692
-SHA256sum: 0d958173407649d3ecc4e565bbfe7e47f37b2b06b5f038ffd79761c5b661f0e6
+Installed-Size: 28319
+Filename: luci-lib-nixio_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
+Size: 28667
+SHA256sum: 977d6f33cde9453bab030c7d9d89a14c10141c2f983c1e2a042a6a22821cce7d
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full
-Version: git-17.205.60871-6c8a9f1-1
+Version: git-17.209.51293-4c9ae3f-1
 Depends: libc, luci-base
 Source: feeds/luci/modules/luci-mod-admin-full
 License: Apache-2.0
 Section: luci
 Architecture: mips_24kc
-Installed-Size: 76514
-Filename: luci-mod-admin-full_git-17.205.60871-6c8a9f1-1_mips_24kc.ipk
-Size: 77379
-SHA256sum: 24be710df1c84293bd02e63a0e7d0f24ad6713d2329f6ee4c3bfebb9308e3aae
+Installed-Size: 76496
+Filename: luci-mod-admin-full_git-17.209.51293-4c9ae3f-1_mips_24kc.ipk
+Size: 77359
+SHA256sum: 09d7c6a50683ebe515f6e3140ae204ff599ac0db879d38c9ce0329cc2a7b0c2f
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-rpc
