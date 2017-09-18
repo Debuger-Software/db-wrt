@@ -1,8 +1,16 @@
 #!/bin/bash
-eval `cat .config | grep CONFIG_VERSION_`
+function image_exists() { return $([[ -e $IMG_PATH ]]); }
+function updatevariables()
+{
+	eval `cat .config | egrep -i 'config_(target_(board|subtarget|profile)=|version_(dist|number|code)=)'`
+	typeset -l IMG_NAME="$CONFIG_VERSION_DIST-$CONFIG_VERSION_NUMBER-$CONFIG_VERSION_CODE-$CONFIG_TARGET_BOARD-$CONFIG_TARGET_SUBTARGET-${CONFIG_TARGET_PROFILE#*_}-squashfs-sysupgrade.bin"
+	typeset -l BIN_PATH="$HOME/db-wrt/bin/targets/$CONFIG_TARGET_BOARD/$CONFIG_TARGET_SUBTARGET/"
+	IMG_PATH="$BIN_PATH$IMG_NAME"
+}
+updatevariables;
 
-NEV_VER=$((CONFIG_VERSION_CODE + 1))
-CONFVER=$(dialog --title "KONTROLA WERSJI" --clear --inputbox "Potwierdź numer rev" 10 40 $NEV_VER 3>&1 1>&2 2>&3)
+# NEV_VER=$((CONFIG_VERSION_CODE + 1))
+CONFVER=$(dialog --title "KONTROLA WERSJI" --clear --inputbox "Potwierdź numer rev" 10 40 $((CONFIG_VERSION_CODE + 1)) 3>&1 1>&2 2>&3)
 #HSNAME=$CONFIG_VERSION_DIST"_v"$CONFIG_VERSION_NUMBER"-r"$CONFVER
 sed -i "s/CONFIG_VERSION_CODE=.*/CONFIG_VERSION_CODE=\"$CONFVER\"/" .config
 #sed -i "s/option hostname.*/option hostname '$HSNAME'/" files/etc/config/system

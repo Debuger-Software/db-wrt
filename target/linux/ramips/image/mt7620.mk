@@ -32,6 +32,17 @@ define Device/Archer
   IMAGE/sysupgrade.bin := tplink-v2-image -s | append-metadata
 endef
 
+define Device/ArcherC20
+  $(Device/Archer)
+  DTS := ArcherC20
+  SUPPORTED_DEVICES := c20
+  TPLINK_BOARD_ID := ArcherC20
+  IMAGES += factory.bin
+  DEVICE_TITLE := TP-Link ArcherC20
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport
+endef
+TARGET_DEVICES += ArcherC20
+
 define Device/ArcherC20i
   $(Device/Archer)
   DTS := ArcherC20i
@@ -42,15 +53,17 @@ define Device/ArcherC20i
 endef
 TARGET_DEVICES += ArcherC20i
 
-define Device/ArcherC50
+define Device/ArcherC50v1
   $(Device/Archer)
   DTS := ArcherC50
   SUPPORTED_DEVICES := c50
   TPLINK_BOARD_ID := ArcherC50
-  IMAGES += factory.bin
-  DEVICE_TITLE := TP-Link ArcherC50
+  IMAGES += factory-us.bin factory-eu.bin
+  IMAGE/factory-us.bin := tplink-v2-image -w 0
+  IMAGE/factory-eu.bin := tplink-v2-image -w 2
+  DEVICE_TITLE := TP-Link ArcherC50v1
 endef
-TARGET_DEVICES += ArcherC50
+TARGET_DEVICES += ArcherC50v1
 
 define Device/ArcherMR200
   $(Device/Archer)
@@ -61,6 +74,14 @@ define Device/ArcherMR200
   DEVICE_TITLE := TP-Link ArcherMR200
 endef
 TARGET_DEVICES += ArcherMR200
+
+define Device/c108
+  DTS := C108
+  IMAGE_SIZE := 16777216
+  DEVICE_TITLE := HNET C108
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-sdhci-mt7620
+endef
+TARGET_DEVICES += c108
 
 define Device/cf-wr800n
   DTS := CF-WR800N
@@ -140,17 +161,18 @@ define Device/ex2700
 endef
 TARGET_DEVICES += ex2700
 
-define Device/ex3700
+define Device/ex3700-ex3800
   NETGEAR_BOARD_ID := U12H319T00_NETGEAR
   DTS := EX3700
   BLOCKSIZE := 4k
   IMAGE_SIZE := 7744k
-  IMAGES += factory.bin
-  IMAGE/factory.bin := $$(sysupgrade_bin) | check-size $$$$(IMAGE_SIZE) | netgear-chk
+  IMAGES += factory.chk
+  IMAGE/factory.chk := $$(sysupgrade_bin) | check-size $$$$(IMAGE_SIZE) | netgear-chk
   DEVICE_PACKAGES := -kmod-mt76 kmod-mt76x2
-  DEVICE_TITLE := Netgear EX3700
+  DEVICE_TITLE := Netgear EX3700/EX3800
+  SUPPORTED_DEVICES := ex3700
 endef
-TARGET_DEVICES += ex3700
+TARGET_DEVICES += ex3700-ex3800
 
 define Device/gl-mt300a
   DTS := GL-MT300A
@@ -468,6 +490,15 @@ define Device/youku-yk1
   DEVICE_TITLE := YOUKU YK1
 endef
 TARGET_DEVICES += youku-yk1
+
+define Device/we1026-5g-16m
+  DTS := WE1026-5G-16M
+  IMAGE_SIZE := 16777216
+  SUPPORTED_DEVICES += we1026-5g-16m
+  DEVICE_TITLE := Zbtlink ZBT-WE1026-5G (16M)
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-mt76 kmod-sdhci-mt7620
+endef
+TARGET_DEVICES += we1026-5g-16m
 
 define Device/zbt-ape522ii
   DTS := ZBT-APE522II
